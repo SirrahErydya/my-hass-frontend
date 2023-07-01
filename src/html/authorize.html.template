@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Assistant</title>
+    <title>My Home Assistant</title>
     <%= renderTemplate("_header.html.template") %>
     <%= renderTemplate("_style_base.html.template") %>
     <style>
@@ -24,7 +24,7 @@
       }
       @media (prefers-color-scheme: dark) {
         html {
-          background-color: #111111;
+          background-color: #424242;
           color: #e1e1e1;
         }
       }

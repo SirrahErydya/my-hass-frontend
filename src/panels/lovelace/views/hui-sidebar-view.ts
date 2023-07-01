@@ -206,14 +206,14 @@ export class SideBarView extends LitElement implements LovelaceViewElement {
       }
 
       #main {
-        max-width: 1620px;
+        max-width: 1200px;
         flex-grow: 2;
       }
 
       #sidebar {
         flex-grow: 1;
         flex-shrink: 0;
-        max-width: 380px;
+        max-width: 800px;
       }
 
       .container > div {
